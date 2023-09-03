@@ -32,3 +32,40 @@ c6-->command : git push origin main  (ush the file to repository(origin) inside 
 
 $If we directly create a file in the github it doesnt reflect in our pc folder in this we use the command 
 c7-->command : git pull
+
+#if we want to add more file dont use seperately add file add fle... insted of this using the command
+-->command : git add .   (it add what are the file to modified it add talll the modified files)
+#to check our repostory using the following command
+--> command : git branch
+
+#if you want crete a new folder(repository in your pc) create folder and navigate by cd folder name then intialize the folder using the command 
+-->git init
+
+#Then Add the github repositry origin fore new folder by
+1.create the new repository in  github by using the same folder name and copy the origin link then add the repository to the new created folder using the command 
+--> command : git remote add origin link
+--> command : git remote add origin https://github.com/akashdurai4274/GRep2.git
+
+it will connected then using the command 
+--> command : git branch (to check the brach status)
+
+#To change the branch name using the following command
+--> command : git branch -M main
+===================
+$ Branch section ||
+===================
+#To create a new branch in github
+#to relect the pracj=h in local pc using pull command 
+#to swtching the branch using the folllowing command 
+-->command : git checkout branchname 
+-->command : git checkout branch1
+
+#the checkout command is used to switching between branches like database switching in sql 
+
+#To check the difference between the two branch(Eg:there is two branch 1.main 2.branch1 am currently in main i want to see the difference between the main branc and branch1)
+-->command : git diff branch1
+
+#To merge the two branch(am currently in the main branch i wan to merge the branch1 with main branch)
+-->command : git merge branch1
+then add the command to add the differrence to the main file 
+-->command : git push origin main
