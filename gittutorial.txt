@@ -14,7 +14,7 @@ c2--> git clone https://github.com/akashdurai4274/Git.git
 c3--> command : git add test1.txt
 
 #Then check the status using 
-c4-->command :git status   (it shows the status of the file it denoted as "U" ) and the file moved to the staging folder
+c4-->command :git status   (it shows the status of the file it denoted as "U" it means untracked) and the file moved to the staging folder
 
 #Now to move the file to git copy folder use the command
 c5-->command : git commit -m "Description message"
