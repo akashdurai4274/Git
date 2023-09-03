@@ -1,0 +1,31 @@
+#create a repository in github, then install git software in out pc
+
+#to create a bridge between your pc and github by using user githubusername and email by the following commands
+c1--> command1 : git config --global user.name "akashdurai4274"
+c1--> command2 : git config --global user.email "akashdurai4274@gmail.com"
+
+#clonning your repository to your pc by create folder in your pc then type the command 
+c2--> git clone your origin
+c2--> git clone https://github.com/akashdurai4274/Git.git
+
+#then create a another file like test1.txt
+#the bridge has three section (git main folder)--->(git copy folder)--->(staging folder)--->(your workspace)
+#first add your created text file in the staging folder using
+c3--> command : git add test1.txt
+
+#Then check the status using 
+c4-->command :git status   (it shows the status of the file it denoted as "U" ) and the file moved to the staging folder
+
+#Now to move the file to git copy folder use the command
+c5-->command : git commit -m "Description message"
+c5-->command : git commit -m "test1.txt file added"
+
+#Now the file in git copy folder if we move the file to the main git folder using the following command
+c6-->command : git push origin main  (ush the file to repository(origin) inside the folde(main))
+
+# if we want add some content inside the file then also using the same commands after modification like
+(git add file name  --> git commit -m "message"  --> git push origin main)
+
+#The above are the basic commands
+
+$
