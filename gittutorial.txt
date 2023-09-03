@@ -25,7 +25,10 @@ c6-->command : git push origin main  (ush the file to repository(origin) inside 
 
 # if we want add some content inside the file then also using the same commands after modification like
 (git add file name  --> git commit -m "message"  --> git push origin main)
-
+ -----------------------------------------------
+| #Any modification --> add --> commit --> push |
+ -----------------------------------------------
 #The above are the basic commands
 
-$
+$If we directly create a file in the github it doesnt reflect in our pc folder in this we use the command 
+c7-->command : git pull
